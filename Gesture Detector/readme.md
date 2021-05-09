@@ -10,7 +10,7 @@ Overrive dispatchTouchEvent of activity to send toch events to detector
 
     @Override
     public boolean dispatchTouchEvent(MotionEvent me){
-        // Call onTouchEvent of SimpleGestureFilter class
+        // Call onTouchEvent of SimpleGestureListener class
         this.detector.onTouchEvent(me);
         return super.dispatchTouchEvent(me);
     }
