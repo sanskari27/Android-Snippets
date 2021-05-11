@@ -1,8 +1,8 @@
 Implementation
     
-#To reveal a view from , to , Animation Time
+To reveal a view from , to , Animation Time
   
-    ViewAnimator.revealView(searchFAB, searchLayout, ANIMATION_TIME);
+    ```ViewAnimator.revealView(searchFAB, searchLayout, ANIMATION_TIME);```
     
 #To hide a view from , to , Animation Time
   
